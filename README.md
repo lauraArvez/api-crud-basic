@@ -38,7 +38,7 @@ Crear una API funcional con endpoints REST que permita manejar entidades (como u
 2. Configura la conexión a base de datos en application.properties.
 3. Ejecuta con tu IDE (IntelliJ o VSCode) o por terminal: ./mvnw spring-boot:run
 
-🧩 Estructura del proyecto
+## 🧩 Estructura del proyecto
 
 api-crud-basic/
  ┣ controller/
