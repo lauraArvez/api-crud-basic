@@ -1,26 +1,51 @@
+# API CRUD Básica
 
-## Product CRUD API
+Este proyecto implementa una API REST sencilla con operaciones **CRUD (Create, Read, Update, Delete)** usando Java y Spring Boot. 
+---
 
-This is a simple RESTful API for managing products. 
-It allows performing CRUD (Create, Read, Update, Delete) operations on product entities.
+## 🎯 Objetivo
 
-## Features
-- List Products: Get a list of all products stored in the database.
-- View Product by ID: Retrieve a specific product by its ID.
-- Create Product: Create a new product with the provided information.
-- Update Product: Update the information of an existing product.
-- Delete Product: Delete a product by its ID.
-  
-## Technologies Used
-- Java
-- Spring Boot
-- Maven
-- Hibernate
-- H2 Database (for testing)
+Crear una API funcional con endpoints REST que permita manejar entidades (como usuarios, productos o tareas) conectada a una base de datos.
 
-## Endpoints
-- GET /api/v1/products: Get all products.
-- GET /api/v1/products/{id}: Get a product by its ID.
-- POST /api/v1/products: Create a new product.
-- PUT /api/v1/products/{id}: Update an existing product by its ID.
-- DELETE /api/v1/products/{id}: Delete a product by its ID.
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- ☕ Java
+- 🌱 Spring Boot
+- 💾 MySQL o H2 (según configuración)
+- 🧪 Postman (para pruebas)
+- 🛠️ Maven
+
+---
+
+## 🔍 Endpoints principales
+
+> Ejemplos orientativos, ajústalos a tus entidades:
+
+| Método | Endpoint           | Descripción            |
+|--------|--------------------|------------------------|
+| GET    | `/api/items`       | Obtener todos          |
+| POST   | `/api/items`       | Crear nuevo            |
+| PUT    | `/api/items/{id}`  | Actualizar por ID      |
+| DELETE | `/api/items/{id}`  | Eliminar por ID        |
+
+---
+
+## ⚙️ Cómo ejecutar el proyecto
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/LauraArvez/api-crud-basic.git
+2. Configura la conexión a base de datos en application.properties.
+3. Ejecuta con tu IDE (IntelliJ o VSCode) o por terminal: ./mvnw spring-boot:run
+
+🧩 Estructura del proyecto
+
+api-crud-basic/
+ ┣ controller/
+ ┣ service/
+ ┣ repository/
+ ┣ model/
+ ┗ application.properties
+
