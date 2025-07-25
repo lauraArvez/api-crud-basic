@@ -34,9 +34,7 @@ Crear una API funcional con endpoints REST que permita manejar entidades (como u
 
 ## ⚙️ Cómo ejecutar el proyecto
 
-1. Clona el repositorio:
-```bash
-git clone https://github.com/LauraArvez/api-crud-basic.git
+1. Clona el repositorio: git clone https://github.com/LauraArvez/api-crud-basic.git
 2. Configura la conexión a base de datos en application.properties.
 3. Ejecuta con tu IDE (IntelliJ o VSCode) o por terminal: ./mvnw spring-boot:run
 
