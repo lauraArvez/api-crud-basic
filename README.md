@@ -1,4 +1,4 @@
-![Banner](./assets/api-crud-basic-banner.png)
+![Banner](./assets/API-CRUD-Basic-banner.png)
 
 # API CRUD Básica
 
