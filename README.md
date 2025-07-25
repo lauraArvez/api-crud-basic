@@ -1,3 +1,5 @@
+![Banner](./assets/api-crud-basic-banner.png)
+
 # API CRUD Básica
 
 Este proyecto implementa una API REST sencilla con operaciones **CRUD (Create, Read, Update, Delete)** usando Java y Spring Boot. 
